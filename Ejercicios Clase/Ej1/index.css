@@ -1,0 +1,41 @@
+*
+{
+    padding: 0.5em;
+    margin: 0;
+}
+body>header
+{
+    height: 10vh;
+    padding: 1em;
+    border: 2px solid black;
+}
+nav
+{
+    height: 5vh;
+    margin: 0 0 0.5em 0;
+    border: 1px solid plum;
+}
+main
+{
+    border: 2px solid blue;
+}
+article
+{
+    margin: 1em;
+    border: 1px solid yellow;
+    border-radius: 50px;
+}
+section
+{
+    border: 1px solid violet;
+}
+section:first-child
+{
+    width: 15vw;
+    height: 85vh;
+}
+section:nth-child(2)
+{
+    width: 85vw;
+    height: 85vh;
+}
